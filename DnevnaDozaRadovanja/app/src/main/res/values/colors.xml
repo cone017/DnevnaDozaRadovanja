@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="zeleno_dugme">#497779</color>
+    <color name="pozadina">#203536</color>
+    <color name="slova_za_dugme">#58A555</color>
+    <color name="plutajuce_dugme">#469676</color>
+</resources>

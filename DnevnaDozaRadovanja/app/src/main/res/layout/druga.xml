@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pozadina"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/btn_kupi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@color/zeleno_dugme"
+            android:fontFamily="@font/ruslandisplay"
+            android:orientation="horizontal"
+            android:text="Kupi knjigu"
+            android:textAlignment="center"
+            android:textColor="@color/slova_za_dugme" />
+        <Button
+            android:id="@+id/btn_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@color/zeleno_dugme"
+            android:fontFamily="@font/ruslandisplay"
+            android:orientation="horizontal"
+            android:text="Slusaj"
+            android:textAlignment="center"
+            android:textColor="@color/slova_za_dugme" />
+
+        <Button
+            android:id="@+id/btn_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@color/zeleno_dugme"
+            android:fontFamily="@font/ruslandisplay"
+            android:orientation="horizontal"
+            android:text="Mreze"
+            android:textAlignment="center"
+            android:textColor="@color/slova_za_dugme" />
+
+        <Button
+            android:id="@+id/btn_nemanjici"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@color/zeleno_dugme"
+            android:fontFamily="@font/ruslandisplay"
+            android:orientation="horizontal"
+            android:text="Loza"
+            android:textAlignment="center"
+            android:textColor="@color/slova_za_dugme" />
+    </RelativeLayout>
+
+</RelativeLayout>
